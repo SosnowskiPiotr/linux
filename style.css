@@ -11,7 +11,7 @@ html{
     margin: 0;
     box-sizing: border-box;
     user-select: none;
-    background: url(main-backgorund.webp) var(--bg-color);
+    background: repeating-linear-gradient(-58deg, var(--bg-color),  var(--bg-color)8px,  rgb(20, 19, 19) 8px,   rgb(20, 19, 19) 20px);
     background-size: 100% 100%;
     background-repeat: no-repeat;
 }
