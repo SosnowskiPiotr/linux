@@ -1,5 +1,6 @@
 :root{
     --text-color:rgb(204, 195, 195);
+    --bg-color:rgb(17, 15, 15);
 }
 
 *{
@@ -10,7 +11,7 @@ html{
     margin: 0;
     box-sizing: border-box;
     user-select: none;
-    background-image: url(main-backgorund.jpg);
+    background: url(main-backgorund.webp) var(--bg-color);
     background-size: 100% 100%;
     background-repeat: no-repeat;
 }
@@ -26,7 +27,7 @@ header > h1{
     text-shadow: 1px 1px 20px black;
 }
 nav{
-    background-color: rgb(17, 15, 15);
+    background-color: var(--bg-color);
     line-height: 80px;
     width: 100%;
     color:whitesmoke;
@@ -38,7 +39,7 @@ main{
     max-width: 800px;
     margin: 15px auto;
     border: 3px solid #2c2c2c;
-    background-color: rgb(17, 15, 15);
+    background-color: var(--bg-color);
     color: white;
 }
 main > h2{
